@@ -13,8 +13,6 @@
 		8891198D1CFC3FB400821498 /* NavigationItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8891198B1CFC3FB400821498 /* NavigationItem.xcdatamodeld */; };
 		8891198F1CFC3FB400821498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8891198E1CFC3FB400821498 /* Assets.xcassets */; };
 		889119921CFC3FB400821498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889119901CFC3FB400821498 /* LaunchScreen.storyboard */; };
-		8891199D1CFC3FB400821498 /* NavigationItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8891199C1CFC3FB400821498 /* NavigationItemTests.swift */; };
-		889119A81CFC3FB400821498 /* NavigationItemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889119A71CFC3FB400821498 /* NavigationItemUITests.swift */; };
 		889119B81CFC411B00821498 /* evening320.png in Resources */ = {isa = PBXBuildFile; fileRef = 889119B51CFC411B00821498 /* evening320.png */; };
 		889119B91CFC411B00821498 /* morning320.png in Resources */ = {isa = PBXBuildFile; fileRef = 889119B61CFC411B00821498 /* morning320.png */; };
 		889119BA1CFC411B00821498 /* night320.png in Resources */ = {isa = PBXBuildFile; fileRef = 889119B71CFC411B00821498 /* night320.png */; };
@@ -48,11 +46,7 @@
 		889119911CFC3FB400821498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889119931CFC3FB400821498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889119981CFC3FB400821498 /* NavigationItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8891199C1CFC3FB400821498 /* NavigationItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemTests.swift; sourceTree = "<group>"; };
-		8891199E1CFC3FB400821498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889119A31CFC3FB400821498 /* NavigationItemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationItemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		889119A71CFC3FB400821498 /* NavigationItemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItemUITests.swift; sourceTree = "<group>"; };
-		889119A91CFC3FB400821498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889119B51CFC411B00821498 /* evening320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evening320.png; sourceTree = "<group>"; };
 		889119B61CFC411B00821498 /* morning320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morning320.png; sourceTree = "<group>"; };
 		889119B71CFC411B00821498 /* night320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night320.png; sourceTree = "<group>"; };
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				889119831CFC3FB400821498 /* NavigationItem */,
-				8891199B1CFC3FB400821498 /* NavigationItemTests */,
-				889119A61CFC3FB400821498 /* NavigationItemUITests */,
 				889119821CFC3FB400821498 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				8891198B1CFC3FB400821498 /* NavigationItem.xcdatamodeld */,
 			);
 			path = NavigationItem;
-			sourceTree = "<group>";
-		};
-		8891199B1CFC3FB400821498 /* NavigationItemTests */ = {
-			isa = PBXGroup;
-			children = (
-				8891199C1CFC3FB400821498 /* NavigationItemTests.swift */,
-				8891199E1CFC3FB400821498 /* Info.plist */,
-			);
-			path = NavigationItemTests;
-			sourceTree = "<group>";
-		};
-		889119A61CFC3FB400821498 /* NavigationItemUITests */ = {
-			isa = PBXGroup;
-			children = (
-				889119A71CFC3FB400821498 /* NavigationItemUITests.swift */,
-				889119A91CFC3FB400821498 /* Info.plist */,
-			);
-			path = NavigationItemUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8891199D1CFC3FB400821498 /* NavigationItemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889119A81CFC3FB400821498 /* NavigationItemUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
